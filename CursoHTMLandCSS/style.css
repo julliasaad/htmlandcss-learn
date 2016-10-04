@@ -1,0 +1,49 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    max-height: 100%;
+}
+
+header,
+section,
+footer {
+    min-height: 100vh;
+}
+
+html {
+    font-family: monospace, sans-serif, serif;
+}
+
+/* header */
+header {
+    display: flex;      
+    flex-flow: column;
+    text-align: center;
+    background-image: url("https://source.unsplash.com/category/nature");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+header a {
+    color: #FFF;
+    margin: auto;
+    padding: 20px 40px;
+    background-color: rgba(147, 147, 147, 0.7);    
+    
+}
